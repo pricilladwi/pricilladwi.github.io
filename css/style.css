@@ -41,11 +41,10 @@ html::-webkit-scrollbar-thumb {
 
 body {
   background: #7AA874;
-  overflow-x: hidden;
 }
 
 section {
-  padding: 2rem 7%;
+  padding:2rem 7%;
 }
 
 .heading {
@@ -84,7 +83,7 @@ section {
   padding:1.5rem 7%;
   border-bottom: var(--border);
   position: fixed;
-  top:0; 
+  top:0;
   left: 0; 
   right: 0;
   z-index: 1000;
@@ -92,11 +91,6 @@ section {
 
 .header .logo img {
   height: 9rem;
-}
-
-.header .navbar {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .header .navbar a {
@@ -109,11 +103,6 @@ section {
   color: #7C9070;
   border-bottom: .1rem solid var(--main-color);
   padding-bottom: .5rem;
-}
-
-.header .icons {
-  display: flex;
-  margin-left: auto;
 }
 
 .header .icons div {
@@ -266,6 +255,7 @@ section {
 .about .row .image img {
   width: 100%;
 }
+
 .about .row .content {
   flex:1 1 45rem;
   padding:2rem;
@@ -599,7 +589,7 @@ section {
 }
 
 /* media queries  */
-@media (max-width:991px) {
+@media (max-width:991px){
   html {
     font-size: 55%;
   }
@@ -614,24 +604,16 @@ section {
 }
 
 @media (max-width:768px) {
-  #menu-btn {
+  #menu-btn{
     display: inline-block;
-  }
-
-  .header {
-    flex-wrap: wrap;
   }
 
   .header .navbar {
     position: absolute;
-    top:100%; 
-    right: -100%;
+    top:100%; right: -100%;
     background: #fff;
     width: 30rem;
     height: calc(100vh - 9.5rem);
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
   }
 
   .header .navbar.active {
@@ -641,13 +623,9 @@ section {
   .header .navbar a {
     color:var(--black);
     display: block;
-    margin: 1.5rem;
-    padding: .5rem;
+    margin:1.5rem;
+    padding:.5rem;
     font-size: 2rem;
-  }
-
-  .header .icons {
-    margin-left: auto;
   }
 
   .header .search-form {
@@ -671,7 +649,7 @@ section {
 }
 
 @media (max-width:450px) {
-  html {
+  html{
     font-size: 50%;
   }
 }
